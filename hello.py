@@ -1,6 +1,5 @@
 import random
 
-
 # print("Hi there")
 
 # print(player_choice)
@@ -45,13 +44,6 @@ def check_win(player, computer):
 
 choices = get_choices()
 result = check_win(choices["player"], choices["computer"])
+print(result)
 
 # check_win("rock", "paper ")
-
-# age = 17
-# if age >= 20:
-#     print("Big guy")
-# elif age == 17:
-#     print("You just got passed")
-# else:
-#     print("lilyput")
