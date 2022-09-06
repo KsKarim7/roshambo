@@ -13,19 +13,6 @@ def get_choices():
     choices = {"player": player_choice, "computer": computer_choice}
     return choices
 
-    # return player_choice
-
-
-# def greeting():
-#     return "hi"
-
-# greet = greeting()
-# print(greet)
-
-# def get_choices():
-#     return 'my life my choice'
-
-
 # choices = get_choices()
 # print(choices)
 
@@ -57,6 +44,7 @@ def check_win(player, computer):
 
 
 choices = get_choices()
+result = check_win(choices["player"], choices["computer"])
 
 # check_win("rock", "paper ")
 
