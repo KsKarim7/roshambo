@@ -13,4 +13,6 @@ s.update(p)
 cities = {'Tokyo', 'Kualalampur', 'Berlin', 'Dhaka', 'Seoul'}
 cities2 = {'Tokyo', 'Kualalampur', 'Islamabad', 'Kabul'}
 cities3 = cities.symmetric_difference(cities2)
-print(cities3)
+cities4 = cities.difference(cities2)
+# print(cities3)
+print(cities4)
